@@ -1,0 +1,7 @@
+body {
+  --bs-body-font-family: var(--bs-font-poppins);
+  --bs-body-bg: #f7f7f9;
+}
+header {
+  height: 48px;
+}
