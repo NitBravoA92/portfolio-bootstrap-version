@@ -40,3 +40,20 @@ body {
   width: 48px;
   height: 48px;
 }
+
+#contact-wrapper {
+  border-top-left-radius: 80px;
+  background-color: #6070ff;
+  z-index: 1;
+}
+
+#contact-shape {
+  --shape-bg: url('./img/contact-form-desktop-shapes-bg.png');
+
+  background-image: var(--shape-bg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 90%;
+  z-index: -1;
+}
