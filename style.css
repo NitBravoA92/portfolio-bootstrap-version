@@ -8,10 +8,6 @@ body {
   --bs-body-bg: #f7f7f9;
 }
 
-header {
-  height: 48px;
-}
-
 .point-divider {
   width: 8px;
   height: 8px;
