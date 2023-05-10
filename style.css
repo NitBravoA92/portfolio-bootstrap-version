@@ -1,0 +1,93 @@
+:root {
+  --bs-font-poppins: 'Poppins', sans-serif;
+  --shape-bg: url('./img/header-shapes-desktop.png');
+}
+
+body {
+  --bs-body-font-family: var(--bs-font-poppins);
+  --bs-body-bg: #f7f7f9;
+}
+
+.point-divider {
+  width: 8px;
+  height: 8px;
+}
+
+.text-custome-dark {
+  color: #091e42;
+}
+
+#headline {
+  min-height: 800px;
+  border-bottom-left-radius: 80px;
+  z-index: 1;
+}
+
+#headline-shape {
+  background-image: var(--shape-bg);
+  height: 722px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 95%;
+  z-index: -1;
+}
+
+article.card {
+  transition: all 0.5s ease-in-out;
+}
+
+article.card:hover {
+  filter: drop-shadow(0 48px 48px rgba(37, 47, 137, 0.08));
+}
+
+#about {
+  border-top-right-radius: 80px;
+}
+
+.skill-icon {
+  width: 48px;
+  height: 48px;
+}
+
+#contact-wrapper {
+  border-top-left-radius: 80px;
+  background-color: #6070ff;
+  z-index: 1;
+}
+
+#contact-shape {
+  --shape-bg: url('./img/contact-form-desktop-shapes-bg.png');
+
+  background-image: var(--shape-bg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 90%;
+  z-index: -1;
+}
+
+.form-control::placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  color: #c6c6c6;
+}
+
+@media only screen and (max-width: 767px) {
+  #headline-shape {
+    --shape-bg: url('./img/header-shapes-mobile.png');
+
+    background-position: center left;
+    background-size: 100%;
+  }
+
+  article.card:hover {
+    filter: none;
+  }
+
+  #contact-shape {
+    --shape-bg: url('./img/contact-form-shapes-mobile.png');
+
+    background-position: center right;
+    background-size: 265px 91%;
+  }
+}
