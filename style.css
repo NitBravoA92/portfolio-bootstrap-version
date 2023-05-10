@@ -31,3 +31,12 @@ body {
   background-size: 95%;
   z-index: -1;
 }
+
+#about {
+  border-top-right-radius: 80px;
+}
+
+.skill-icon {
+  width: 48px;
+  height: 48px;
+}
