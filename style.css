@@ -2,26 +2,36 @@
   --bs-font-poppins: 'Poppins', sans-serif;
   --shape-bg: url('./img/header-shapes-desktop.png');
 }
+
 body {
   --bs-body-font-family: var(--bs-font-poppins);
   --bs-body-bg: #f7f7f9;
 }
+
 header {
   height: 48px;
 }
+
+.point-divider {
+  width: 8px;
+  height: 8px;
+}
+
 .text-custome-dark {
   color: #091e42;
 }
+
 #headline {
   min-height: 800px;
   border-bottom-left-radius: 80px;
   z-index: 1;
 }
+
 #headline-shape {
   background-image: var(--shape-bg);
   height: 722px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 95%;
-  z-index:-1;
+  z-index: -1;
 }
