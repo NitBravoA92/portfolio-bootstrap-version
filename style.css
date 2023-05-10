@@ -32,6 +32,14 @@ body {
   z-index: -1;
 }
 
+article.card {
+  transition: all 0.5s ease-in-out;
+}
+
+article.card:hover {
+  filter: drop-shadow(0 48px 48px rgba(37, 47, 137, 0.08));
+}
+
 #about {
   border-top-right-radius: 80px;
 }
@@ -70,6 +78,10 @@ body {
 
     background-position: center left;
     background-size: 100%;
+  }
+
+  article.card:hover {
+    filter: none;
   }
 
   #contact-shape {
