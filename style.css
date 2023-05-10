@@ -63,3 +63,19 @@ body {
   font-size: 15px;
   color: #c6c6c6;
 }
+
+@media only screen and (max-width: 767px) {
+  #headline-shape {
+    --shape-bg: url('./img/header-shapes-mobile.png');
+
+    background-position: center left;
+    background-size: 100%;
+  }
+
+  #contact-shape {
+    --shape-bg: url('./img/contact-form-shapes-mobile.png');
+
+    background-position: center right;
+    background-size: 265px 91%;
+  }
+}
