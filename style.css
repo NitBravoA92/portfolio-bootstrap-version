@@ -57,3 +57,9 @@ body {
   background-size: 90%;
   z-index: -1;
 }
+
+.form-control::placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  color: #c6c6c6;
+}
